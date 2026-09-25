@@ -1,0 +1,19 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "Run TBG",
+            "type": "cppdbg",
+            "request": "launch",
+            "program": "${workspaceFolder}/TBG",
+            "args": [],
+            "stopAtEntry": false,
+            "cwd": "${workspaceFolder}",
+            "environment": [],
+            "externalConsole": false,
+            "console": "integratedTerminal",
+            "MIMode": "gdb",
+            "preLaunchTask": "C/C++: gcc build TBG"
+        }
+    ]
+}
