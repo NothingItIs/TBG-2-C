@@ -2,22 +2,45 @@
     "version": "2.0.0",
     "tasks": [
         {
-            "type": "cppbuild",
-            "label": "C/C++: gcc build TBG",
-            "command": "/usr/bin/gcc",
+            "label": "Configure",
+            "type": "process",
+            "command": "cmake",
             "args": [
-                "-fdiagnostics-color=always",
-                "-Wall",
-                "-Wextra",
-                "-g",
-                "${workspaceFolder}/TBG.c",
-                "${workspaceFolder}/libraries/system_funcs.c",
-                "-o",
-                "${workspaceFolder}/TBG"
+                "-S",
+                ".",
+                "-B",
+                "build",
+                "-DACTIVE_SOURCE=${file}"
+            ],
+            "windows": {
+                "args": [
+                    "-S",
+                    ".",
+                    "-B",
+                    "build",
+                    "-G",
+                    "MinGW Makefiles",
+                    "-DACTIVE_SOURCE=${file}"
+                ]
+            },
+            "options": {
+                "cwd": "${workspaceFolder}"
+            },
+            "problemMatcher": []
+        },
+        {
+            "type": "cppbuild",
+            "label": "C/C++: CMake build project",
+            "command": "cmake",
+            "args": [
+                "--build",
+                "build"
             ],
             "options": {
                 "cwd": "${workspaceFolder}"
             },
+            "dependsOn": "Configure",
+            "dependsOrder": "sequence",
             "problemMatcher": [
                 "$gcc"
             ],
@@ -25,7 +48,7 @@
                 "kind": "build",
                 "isDefault": true
             },
-            "detail": "Build TBG with required source files"
+            "detail": "Build the complete project with CMake"
         }
     ]
 }

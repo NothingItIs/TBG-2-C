@@ -1,0 +1,71 @@
+:: StoryTitle
+TBG-2-c
+
+
+:: StoryData
+{
+  "ifid": "A5F591A0-B112-4D04-8C25-57E9F055F0B0",
+  "format": "Harlowe",
+  "format-version": "3.3.9",
+  "start": "start",
+  "zoom": 1
+}
+
+
+:: \ Actual Start {"position":"1000,400","size":"100,100"}
+
+
+
+:: \ Idiot {"position":"500,500","size":"100,100"}
+IDIOT... YOURE A STAR.. AGAIN?!?!? HELLO???
+
+Or are you...
+
+[[Um... No choice..? I guess I'll choose this... -> Nothing]]
+
+
+:: \ Nothing {"position":"500,375","size":"100,100"}
+Idiot!! You can't choose where you drift, you're a dam star!!
+"Where the wind goes, I go" you tell yourslf.. AGAIN IDIOT, YOURE A STAR THERE IS NO WIND
+
+You drift towards it anyways... as you come closer... your vision focuses and sees more...
+It's.... it's.........
+A very blue and cloudy sk- wait a second... aren't you a star?!?! I might be the idiot...
+
+[[Keep going to the sky -> Idiot]]
+[[Move in the opposite direction -> Idiot]]
+[[I can't do anything, I'm not stupid, I'm a star- or am I..? -> Smart]]
+
+
+:: \ Smart {"position":"625,500","size":"100,100"}
+Ok fine, I'll give you some credit since you're a sta- wait... what's that...
+
+You see a cloud... it looks like an ECS Lab Circuit Board 💔💔 bruh what you day dreaming about, it's just a rectangle with bumps 💔💔
+Wait... a cloud tho?-
+
+Turns out... you're not a star... we were idiots from the start... yes, we; you were always part of this, idiot.
+
+You 'open' your (already opened?) eyes... and... ye, it was all a dream, I knew that idiot. I don't know how you didn't. This whole start is stupid, honestly.
+
+[[The Beginning]]  
+
+
+:: The Beginning {"position":"750,300","size":"100,100"}
+You are a white star 😱😱
+You drift... through nothing 😱
+You see another star... it's... BLUE...
+What do you do?
+
+[[Drift towards it -> Nothing]]
+[[Drift away from it -> Nothing]]
+[[New option..? -> Actual Start]]
+
+
+:: start {"position":"525,225","size":"100,100"}
+You are a white star 😱😱
+You drift... through nothing 😱
+You see another star... it's... BLUE...
+What do you do?
+
+[[Drift towards it -> Nothing]]
+[[Drift away from it -> Nothing]]
