@@ -1,4 +1,6 @@
 #include <stdio.h>
+#include "start_game.h"
+#include <stdlib.h>
 
 // void get_story(position){
 //     FILE *story = fopen("C:\\Users\\jwjnt\\OneDrive\\Desktop\\GitLab_UNI\\TBG-2-C\\story.txt", "r");
@@ -12,4 +14,63 @@
 //     fclose(story);
 // }
 
-void load_story 
+void createScene(struct scene *Scene, int id, char title, char event, int choices[10]){
+    Scene->id = id;
+    strcpy(Scene->title, title);
+    strcpy(Scene->event, event);
+    
+    {
+        /* data */
+    };
+    
+    {
+        /* data */
+    };
+    
+
+}
+
+void load_story(void){
+    FILE *story = fopen("story.txt", "r");
+
+    if (story == NULL) {
+        perror("Error opening story.txt");
+        return;
+    }
+
+    struct scene scenes[100];
+    int sceneCount = 0;
+    char line[8096];
+    char *current;
+    while (fgets(line, sizeof(line), story)){
+        for (int i = 0; (i < 5); i++)  {
+            switch(i){
+                case 0:
+                    current = strtok(line, "|");
+                    scenes[sceneCount].id = atoi(current);
+                    break;
+                case 1:
+                    current = strtok(NULL, "|");
+                    strcpy(scenes[sceneCount].title, current);
+                    break;
+                case 2:
+                    current = strtok(NULL, "|");
+                    strcpy(scenes[sceneCount].event, current);
+                    break;   
+                case 3:
+                    current = strtok(NULL, "|");
+                    int options[10];
+
+                    break;
+            }
+        }
+        sceneCount++;
+    }
+
+    fclose(story);
+}
+
+int main(void){
+    load_story();
+    return 0;
+}

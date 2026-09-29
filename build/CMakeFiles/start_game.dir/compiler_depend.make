@@ -23,7 +23,8 @@ CMakeFiles/start_game.dir/libraries/game_itself/start_game.c.obj: C:/Users/jwjnt
   C:/msys64/ucrt64/include/sec_api/stdio_s.h \
   C:/msys64/ucrt64/include/stdio.h \
   C:/msys64/ucrt64/include/swprintf.inl \
-  C:/msys64/ucrt64/include/vadefs.h
+  C:/msys64/ucrt64/include/vadefs.h \
+  C:/Users/jwjnt/OneDrive/Desktop/GitLab_UNI/TBG-2-C/libraries/game_itself/start_game.h
 
 CMakeFiles/start_game.dir/libraries/signin_game/signin_game.c.obj: C:/Users/jwjnt/OneDrive/Desktop/GitLab_UNI/TBG-2-C/libraries/signin_game/signin_game.c \
   C:/Users/jwjnt/OneDrive/Desktop/GitLab_UNI/TBG-2-C/libraries/game_global/game_global.h \
@@ -385,6 +386,8 @@ C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/16.1.0/include/popcntintrin.h:
 
 C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/16.1.0/include/pmmintrin.h:
 
+C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/16.1.0/include/pconfigintrin.h:
+
 C:/msys64/ucrt64/include/sec_api/string_s.h:
 
 C:/msys64/ucrt64/include/objidlbase.h:
@@ -459,6 +462,10 @@ C:/msys64/ucrt64/include/ktmtypes.h:
 
 C:/msys64/ucrt64/include/jobapi.h:
 
+C:/msys64/ucrt64/include/oleauto.h:
+
+C:/msys64/ucrt64/include/handleapi.h:
+
 C:/msys64/ucrt64/include/pshpack2.h:
 
 C:/msys64/ucrt64/include/basetsd.h:
@@ -470,6 +477,8 @@ C:/msys64/ucrt64/include/timezoneapi.h:
 C:/Users/jwjnt/OneDrive/Desktop/GitLab_UNI/TBG-2-C/nts_essentials/nts_variables.h:
 
 C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/16.1.0/include/avx512ifmavlintrin.h:
+
+C:/Users/jwjnt/OneDrive/Desktop/GitLab_UNI/TBG-2-C/libraries/game_itself/start_game.h:
 
 C:/msys64/ucrt64/include/consoleapi3.h:
 
@@ -569,10 +578,6 @@ C:/msys64/ucrt64/include/unknwnbase.h:
 
 C:/msys64/ucrt64/include/unknwn.h:
 
-C:/msys64/ucrt64/include/oleauto.h:
-
-C:/msys64/ucrt64/include/handleapi.h:
-
 C:/Users/jwjnt/OneDrive/Desktop/GitLab_UNI/TBG-2-C/nts_essentials/nts_system_funcs/nts_system_funcs.c:
 
 C:/msys64/ucrt64/include/sal.h:
@@ -580,10 +585,6 @@ C:/msys64/ucrt64/include/sal.h:
 C:/msys64/ucrt64/include/msxml.h:
 
 C:/msys64/ucrt64/include/stdarg.h:
-
-C:/msys64/ucrt64/include/securitybaseapi.h:
-
-C:/msys64/ucrt64/include/_mingw_mac.h:
 
 C:/msys64/ucrt64/include/_mingw_off_t.h:
 
@@ -618,6 +619,8 @@ C:/msys64/ucrt64/include/dlgs.h:
 C:/msys64/ucrt64/include/limits.h:
 
 C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/16.1.0/include/amxint8intrin.h:
+
+C:/msys64/ucrt64/include/_mingw_mac.h:
 
 C:/msys64/ucrt64/include/vadefs.h:
 
@@ -681,8 +684,6 @@ C:/msys64/ucrt64/include/mmsyscom.h:
 
 C:/msys64/ucrt64/include/winapifamily.h:
 
-C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/16.1.0/include/pconfigintrin.h:
-
 C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/16.1.0/include/avx512vp2intersectvlintrin.h:
 
 C:/msys64/ucrt64/include/dde.h:
@@ -712,6 +713,8 @@ C:/msys64/ucrt64/include/guiddef.h:
 C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/16.1.0/include/bmi2intrin.h:
 
 C:/msys64/ucrt64/include/minwindef.h:
+
+C:/msys64/ucrt64/include/securitybaseapi.h:
 
 C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/16.1.0/include/avx512vnnivlintrin.h:
 

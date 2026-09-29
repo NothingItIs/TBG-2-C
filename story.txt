@@ -1,4 +1,4 @@
-1|The Beginning|You wake up... you have no hands or legs 😱|2,3
-2|Sit up|Wait, you... sat up..? How... are you even real?!?!|3
-3|Look around|You see... nothing! But as your eyes focus... you see a wide blue sky... and... building 32 💔💔|4,5
-4|Cry|You cry...|5
+0|The Beginning|You wake up... you have no hands or legs 😱|1,2
+1|Sit up|Wait, you... sat up..? How... are you even real?!?!|2
+2|Look around|You see... nothing! But as your eyes focus... you see a wide blue sky... and... building 21 💔💔|3,4
+3|Cry|You cry...|4

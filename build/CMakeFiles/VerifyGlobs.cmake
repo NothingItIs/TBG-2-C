@@ -10,6 +10,7 @@ set(OLD_GLOB
   "C:/Users/jwjnt/OneDrive/Desktop/GitLab_UNI/TBG-2-C/libraries/game_itself/start_game.c"
   "C:/Users/jwjnt/OneDrive/Desktop/GitLab_UNI/TBG-2-C/libraries/signin_game/signin_game.c"
   "C:/Users/jwjnt/OneDrive/Desktop/GitLab_UNI/TBG-2-C/nts_essentials/nts_system_funcs/nts_system_funcs.c"
+  "C:/Users/jwjnt/OneDrive/Desktop/GitLab_UNI/TBG-2-C/test.c"
   )
 if(NOT "${NEW_GLOB}" STREQUAL "${OLD_GLOB}")
   message("-- GLOB mismatch!")
