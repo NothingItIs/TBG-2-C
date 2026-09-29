@@ -1,6 +1,7 @@
 #include <stdio.h>
 #include "start_game.h"
 #include <stdlib.h>
+#include <string.h>
 
 // void get_story(position){
 //     FILE *story = fopen("C:\\Users\\jwjnt\\OneDrive\\Desktop\\GitLab_UNI\\TBG-2-C\\story.txt", "r");
@@ -14,36 +15,26 @@
 //     fclose(story);
 // }
 
-void createScene(struct scene *Scene, int id, char title, char event, int choices[10]){
+void createScene(struct scene *Scene, int id, char *title, char *event, int choices[10]){
     Scene->id = id;
     strcpy(Scene->title, title);
-    strcpy(Scene->event, event);
-    
-    {
-        /* data */
-    };
-    
-    {
-        /* data */
-    };
-    
+    strcpy(Scene->event, event);    
 
 }
 
-void load_story(void){
+int load_story(struct scene scenes[]){
     FILE *story = fopen("story.txt", "r");
 
     if (story == NULL) {
         perror("Error opening story.txt");
-        return;
+        return 0;
     }
 
-    struct scene scenes[100];
     int sceneCount = 0;
     char line[8096];
     char *current;
-    while (fgets(line, sizeof(line), story)){
-        for (int i = 0; (i < 5); i++)  {
+    while (sceneCount < 100 && fgets(line, sizeof(line), story)){
+        for (int i = 0; (i < 4); i++)  {
             switch(i){
                 case 0:
                     current = strtok(line, "|");
@@ -59,8 +50,14 @@ void load_story(void){
                     break;   
                 case 3:
                     current = strtok(NULL, "|");
-                    int options[10];
-
+                    scenes[sceneCount].choices[0] = atoi(strtok(current, ","));
+                    for (int j = 1; j < 10; j++){
+                        char *optionCurrent = strtok(NULL, ",");
+                        if (!optionCurrent){
+                            break;
+                        }
+                        scenes[sceneCount].choices[j] = atoi(optionCurrent);
+                    }
                     break;
             }
         }
@@ -68,9 +65,17 @@ void load_story(void){
     }
 
     fclose(story);
+    return sceneCount;
 }
 
 int main(void){
-    load_story();
+    struct scene scenes[100];
+    load_story(scenes);
+    int x;
+    scanf("%d", &x);
+    printf("%s", scenes[x].title);
     return 0;
 }
+
+
+

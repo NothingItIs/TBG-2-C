@@ -117,24 +117,24 @@ depend:
 .PHONY : depend
 
 #=============================================================================
-# Target rules for targets named test
+# Target rules for targets named start_game
 
 # Build rule for target.
-test: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 test
-.PHONY : test
+start_game: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 start_game
+.PHONY : start_game
 
 # fast build rule for target.
-test/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\test.dir\build.make CMakeFiles/test.dir/build
-.PHONY : test/fast
+start_game/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\start_game.dir\build.make CMakeFiles/start_game.dir/build
+.PHONY : start_game/fast
 
 libraries/game_global/game_global.obj: libraries/game_global/game_global.c.obj
 .PHONY : libraries/game_global/game_global.obj
 
 # target to build an object file
 libraries/game_global/game_global.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\test.dir\build.make CMakeFiles/test.dir/libraries/game_global/game_global.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\start_game.dir\build.make CMakeFiles/start_game.dir/libraries/game_global/game_global.c.obj
 .PHONY : libraries/game_global/game_global.c.obj
 
 libraries/game_global/game_global.i: libraries/game_global/game_global.c.i
@@ -142,7 +142,7 @@ libraries/game_global/game_global.i: libraries/game_global/game_global.c.i
 
 # target to preprocess a source file
 libraries/game_global/game_global.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\test.dir\build.make CMakeFiles/test.dir/libraries/game_global/game_global.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\start_game.dir\build.make CMakeFiles/start_game.dir/libraries/game_global/game_global.c.i
 .PHONY : libraries/game_global/game_global.c.i
 
 libraries/game_global/game_global.s: libraries/game_global/game_global.c.s
@@ -150,15 +150,39 @@ libraries/game_global/game_global.s: libraries/game_global/game_global.c.s
 
 # target to generate assembly for a file
 libraries/game_global/game_global.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\test.dir\build.make CMakeFiles/test.dir/libraries/game_global/game_global.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\start_game.dir\build.make CMakeFiles/start_game.dir/libraries/game_global/game_global.c.s
 .PHONY : libraries/game_global/game_global.c.s
+
+libraries/game_itself/start_game.obj: libraries/game_itself/start_game.c.obj
+.PHONY : libraries/game_itself/start_game.obj
+
+# target to build an object file
+libraries/game_itself/start_game.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\start_game.dir\build.make CMakeFiles/start_game.dir/libraries/game_itself/start_game.c.obj
+.PHONY : libraries/game_itself/start_game.c.obj
+
+libraries/game_itself/start_game.i: libraries/game_itself/start_game.c.i
+.PHONY : libraries/game_itself/start_game.i
+
+# target to preprocess a source file
+libraries/game_itself/start_game.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\start_game.dir\build.make CMakeFiles/start_game.dir/libraries/game_itself/start_game.c.i
+.PHONY : libraries/game_itself/start_game.c.i
+
+libraries/game_itself/start_game.s: libraries/game_itself/start_game.c.s
+.PHONY : libraries/game_itself/start_game.s
+
+# target to generate assembly for a file
+libraries/game_itself/start_game.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\start_game.dir\build.make CMakeFiles/start_game.dir/libraries/game_itself/start_game.c.s
+.PHONY : libraries/game_itself/start_game.c.s
 
 libraries/signin_game/signin_game.obj: libraries/signin_game/signin_game.c.obj
 .PHONY : libraries/signin_game/signin_game.obj
 
 # target to build an object file
 libraries/signin_game/signin_game.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\test.dir\build.make CMakeFiles/test.dir/libraries/signin_game/signin_game.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\start_game.dir\build.make CMakeFiles/start_game.dir/libraries/signin_game/signin_game.c.obj
 .PHONY : libraries/signin_game/signin_game.c.obj
 
 libraries/signin_game/signin_game.i: libraries/signin_game/signin_game.c.i
@@ -166,7 +190,7 @@ libraries/signin_game/signin_game.i: libraries/signin_game/signin_game.c.i
 
 # target to preprocess a source file
 libraries/signin_game/signin_game.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\test.dir\build.make CMakeFiles/test.dir/libraries/signin_game/signin_game.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\start_game.dir\build.make CMakeFiles/start_game.dir/libraries/signin_game/signin_game.c.i
 .PHONY : libraries/signin_game/signin_game.c.i
 
 libraries/signin_game/signin_game.s: libraries/signin_game/signin_game.c.s
@@ -174,7 +198,7 @@ libraries/signin_game/signin_game.s: libraries/signin_game/signin_game.c.s
 
 # target to generate assembly for a file
 libraries/signin_game/signin_game.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\test.dir\build.make CMakeFiles/test.dir/libraries/signin_game/signin_game.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\start_game.dir\build.make CMakeFiles/start_game.dir/libraries/signin_game/signin_game.c.s
 .PHONY : libraries/signin_game/signin_game.c.s
 
 nts_essentials/nts_system_funcs/nts_system_funcs.obj: nts_essentials/nts_system_funcs/nts_system_funcs.c.obj
@@ -182,7 +206,7 @@ nts_essentials/nts_system_funcs/nts_system_funcs.obj: nts_essentials/nts_system_
 
 # target to build an object file
 nts_essentials/nts_system_funcs/nts_system_funcs.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\test.dir\build.make CMakeFiles/test.dir/nts_essentials/nts_system_funcs/nts_system_funcs.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\start_game.dir\build.make CMakeFiles/start_game.dir/nts_essentials/nts_system_funcs/nts_system_funcs.c.obj
 .PHONY : nts_essentials/nts_system_funcs/nts_system_funcs.c.obj
 
 nts_essentials/nts_system_funcs/nts_system_funcs.i: nts_essentials/nts_system_funcs/nts_system_funcs.c.i
@@ -190,7 +214,7 @@ nts_essentials/nts_system_funcs/nts_system_funcs.i: nts_essentials/nts_system_fu
 
 # target to preprocess a source file
 nts_essentials/nts_system_funcs/nts_system_funcs.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\test.dir\build.make CMakeFiles/test.dir/nts_essentials/nts_system_funcs/nts_system_funcs.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\start_game.dir\build.make CMakeFiles/start_game.dir/nts_essentials/nts_system_funcs/nts_system_funcs.c.i
 .PHONY : nts_essentials/nts_system_funcs/nts_system_funcs.c.i
 
 nts_essentials/nts_system_funcs/nts_system_funcs.s: nts_essentials/nts_system_funcs/nts_system_funcs.c.s
@@ -198,32 +222,8 @@ nts_essentials/nts_system_funcs/nts_system_funcs.s: nts_essentials/nts_system_fu
 
 # target to generate assembly for a file
 nts_essentials/nts_system_funcs/nts_system_funcs.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\test.dir\build.make CMakeFiles/test.dir/nts_essentials/nts_system_funcs/nts_system_funcs.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\start_game.dir\build.make CMakeFiles/start_game.dir/nts_essentials/nts_system_funcs/nts_system_funcs.c.s
 .PHONY : nts_essentials/nts_system_funcs/nts_system_funcs.c.s
-
-test.obj: test.c.obj
-.PHONY : test.obj
-
-# target to build an object file
-test.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\test.dir\build.make CMakeFiles/test.dir/test.c.obj
-.PHONY : test.c.obj
-
-test.i: test.c.i
-.PHONY : test.i
-
-# target to preprocess a source file
-test.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\test.dir\build.make CMakeFiles/test.dir/test.c.i
-.PHONY : test.c.i
-
-test.s: test.c.s
-.PHONY : test.s
-
-# target to generate assembly for a file
-test.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\test.dir\build.make CMakeFiles/test.dir/test.c.s
-.PHONY : test.c.s
 
 # Help Target
 help:
@@ -233,19 +233,19 @@ help:
 	@echo ... depend
 	@echo ... edit_cache
 	@echo ... rebuild_cache
-	@echo ... test
+	@echo ... start_game
 	@echo ... libraries/game_global/game_global.obj
 	@echo ... libraries/game_global/game_global.i
 	@echo ... libraries/game_global/game_global.s
+	@echo ... libraries/game_itself/start_game.obj
+	@echo ... libraries/game_itself/start_game.i
+	@echo ... libraries/game_itself/start_game.s
 	@echo ... libraries/signin_game/signin_game.obj
 	@echo ... libraries/signin_game/signin_game.i
 	@echo ... libraries/signin_game/signin_game.s
 	@echo ... nts_essentials/nts_system_funcs/nts_system_funcs.obj
 	@echo ... nts_essentials/nts_system_funcs/nts_system_funcs.i
 	@echo ... nts_essentials/nts_system_funcs/nts_system_funcs.s
-	@echo ... test.obj
-	@echo ... test.i
-	@echo ... test.s
 .PHONY : help
 
 

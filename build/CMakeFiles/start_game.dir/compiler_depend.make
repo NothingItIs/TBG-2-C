@@ -19,11 +19,24 @@ CMakeFiles/start_game.dir/libraries/game_itself/start_game.c.obj: C:/Users/jwjnt
   C:/msys64/ucrt64/include/_mingw_off_t.h \
   C:/msys64/ucrt64/include/_mingw_secapi.h \
   C:/msys64/ucrt64/include/corecrt.h \
+  C:/msys64/ucrt64/include/corecrt_memory.h \
   C:/msys64/ucrt64/include/corecrt_stdio_config.h \
+  C:/msys64/ucrt64/include/corecrt_wstdlib.h \
+  C:/msys64/ucrt64/include/crtdefs.h \
+  C:/msys64/ucrt64/include/errno.h \
+  C:/msys64/ucrt64/include/limits.h \
+  C:/msys64/ucrt64/include/malloc.h \
   C:/msys64/ucrt64/include/sec_api/stdio_s.h \
+  C:/msys64/ucrt64/include/sec_api/stdlib_s.h \
+  C:/msys64/ucrt64/include/sec_api/string_s.h \
   C:/msys64/ucrt64/include/stdio.h \
+  C:/msys64/ucrt64/include/stdlib.h \
+  C:/msys64/ucrt64/include/string.h \
   C:/msys64/ucrt64/include/swprintf.inl \
   C:/msys64/ucrt64/include/vadefs.h \
+  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/16.1.0/include/limits.h \
+  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/16.1.0/include/mm_malloc.h \
+  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/16.1.0/include/syslimits.h \
   C:/Users/jwjnt/OneDrive/Desktop/GitLab_UNI/TBG-2-C/libraries/game_itself/start_game.h
 
 CMakeFiles/start_game.dir/libraries/signin_game/signin_game.c.obj: C:/Users/jwjnt/OneDrive/Desktop/GitLab_UNI/TBG-2-C/libraries/signin_game/signin_game.c \
@@ -356,8 +369,6 @@ C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/16.1.0/include/uintrintrin.h:
 
 C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/16.1.0/include/tbmintrin.h:
 
-C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/16.1.0/include/syslimits.h:
-
 C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/16.1.0/include/stddef.h:
 
 C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/16.1.0/include/stdarg.h:
@@ -388,15 +399,7 @@ C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/16.1.0/include/pmmintrin.h:
 
 C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/16.1.0/include/pconfigintrin.h:
 
-C:/msys64/ucrt64/include/sec_api/string_s.h:
-
-C:/msys64/ucrt64/include/objidlbase.h:
-
-C:/msys64/ucrt64/include/sec_api/stralign_s.h:
-
-C:/msys64/ucrt64/include/processenv.h:
-
-C:/msys64/ucrt64/include/pshpack1.h:
+C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/16.1.0/include/mwaitxintrin.h:
 
 C:/msys64/ucrt64/include/rpcnterr.h:
 
@@ -405,8 +408,6 @@ C:/msys64/ucrt64/include/rpcdcep.h:
 C:/msys64/ucrt64/include/joystickapi.h:
 
 C:/msys64/ucrt64/include/namedpipeapi.h:
-
-C:/msys64/ucrt64/include/rpcsal.h:
 
 C:/msys64/ucrt64/include/rpc.h:
 
@@ -424,9 +425,19 @@ C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/16.1.0/include/avxvnniint16intrin.h:
 
 C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/16.1.0/include/avx512vldqintrin.h:
 
+C:/msys64/ucrt64/include/processenv.h:
+
+C:/msys64/ucrt64/include/pshpack1.h:
+
+C:/msys64/ucrt64/include/sec_api/stralign_s.h:
+
 C:/msys64/ucrt64/include/ole2.h:
 
 C:/msys64/ucrt64/include/memoryapi.h:
+
+C:/msys64/ucrt64/include/objidlbase.h:
+
+C:/msys64/ucrt64/include/sec_api/string_s.h:
 
 C:/msys64/ucrt64/include/realtimeapiset.h:
 
@@ -466,77 +477,17 @@ C:/msys64/ucrt64/include/oleauto.h:
 
 C:/msys64/ucrt64/include/handleapi.h:
 
-C:/msys64/ucrt64/include/pshpack2.h:
+C:/msys64/ucrt64/include/guiddef.h:
 
-C:/msys64/ucrt64/include/basetsd.h:
+C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/16.1.0/include/bmi2intrin.h:
 
-C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/16.1.0/include/clzerointrin.h:
+C:/msys64/ucrt64/include/nb30.h:
 
-C:/msys64/ucrt64/include/timezoneapi.h:
+C:/msys64/ucrt64/include/fltwinerror.h:
 
-C:/Users/jwjnt/OneDrive/Desktop/GitLab_UNI/TBG-2-C/nts_essentials/nts_variables.h:
+C:/msys64/ucrt64/include/excpt.h:
 
-C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/16.1.0/include/avx512ifmavlintrin.h:
-
-C:/Users/jwjnt/OneDrive/Desktop/GitLab_UNI/TBG-2-C/libraries/game_itself/start_game.h:
-
-C:/msys64/ucrt64/include/consoleapi3.h:
-
-C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/16.1.0/include/xsaveoptintrin.h:
-
-C:/msys64/ucrt64/include/_mingw.h:
-
-C:/msys64/ucrt64/include/wincon.h:
-
-C:/msys64/ucrt64/include/dpapi.h:
-
-C:/msys64/ucrt64/include/rpcasync.h:
-
-C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/16.1.0/include/amxcomplexintrin.h:
-
-C:/msys64/ucrt64/include/apisetcconv.h:
-
-C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/16.1.0/include/amxtf32intrin.h:
-
-C:/msys64/ucrt64/include/_timeval.h:
-
-C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/16.1.0/include/avx512bf16intrin.h:
-
-C:/msys64/ucrt64/include/psdk_inc/_socket_types.h:
-
-C:/msys64/ucrt64/include/datetimeapi.h:
-
-C:/msys64/ucrt64/include/mciapi.h:
-
-C:/msys64/ucrt64/include/corecrt_memory.h:
-
-C:/msys64/ucrt64/include/rpcnsi.h:
-
-C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/16.1.0/include/pkuintrin.h:
-
-C:/msys64/ucrt64/include/poppack.h:
-
-C:/msys64/ucrt64/include/cguid.h:
-
-C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/16.1.0/include/avx512bitalgintrin.h:
-
-C:/msys64/ucrt64/include/securityappcontainer.h:
-
-C:/msys64/ucrt64/include/swprintf.inl:
-
-C:/msys64/ucrt64/include/sec_api/stdio_s.h:
-
-C:/msys64/ucrt64/include/propidl.h:
-
-C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/16.1.0/include/avx512fp16vlintrin.h:
-
-C:/msys64/ucrt64/include/mmsystem.h:
-
-C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/16.1.0/include/mwaitxintrin.h:
-
-C:/msys64/ucrt64/include/objbase.h:
-
-C:/msys64/ucrt64/include/corecrt_wstdlib.h:
+C:/msys64/ucrt64/include/malloc.h:
 
 C:/msys64/ucrt64/include/rpcndr.h:
 
@@ -552,53 +503,65 @@ C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/16.1.0/include/avx512bwintrin.h:
 
 C:/msys64/ucrt64/include/errhandlingapi.h:
 
-C:/msys64/ucrt64/include/sec_api/stdlib_s.h:
+C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/16.1.0/include/mm_malloc.h:
+
+C:/msys64/ucrt64/include/vadefs.h:
 
 C:/msys64/ucrt64/include/heapapi.h:
+
+C:/msys64/ucrt64/include/sec_api/stdlib_s.h:
+
+C:/msys64/ucrt64/include/_mingw_mac.h:
+
+C:/msys64/ucrt64/include/_timeval.h:
+
+C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/16.1.0/include/avx512bf16intrin.h:
+
+C:/msys64/ucrt64/include/psdk_inc/_socket_types.h:
+
+C:/msys64/ucrt64/include/datetimeapi.h:
+
+C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/16.1.0/include/xsavecintrin.h:
+
+C:/msys64/ucrt64/include/fileapi.h:
+
+C:/msys64/ucrt64/include/mmsyscom.h:
+
+C:/msys64/ucrt64/include/winapifamily.h:
+
+C:/msys64/ucrt64/include/mmsystem.h:
+
+C:/msys64/ucrt64/include/objbase.h:
+
+C:/msys64/ucrt64/include/corecrt_wstdlib.h:
+
+C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/16.1.0/include/pkuintrin.h:
+
+C:/msys64/ucrt64/include/poppack.h:
+
+C:/msys64/ucrt64/include/cguid.h:
+
+C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/16.1.0/include/avx512bitalgintrin.h:
 
 C:/msys64/ucrt64/include/libloaderapi.h:
 
 C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/16.1.0/include/avx2intrin.h:
 
-C:/msys64/ucrt64/include/bemapiset.h:
-
-C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/16.1.0/include/avx512cdintrin.h:
-
-C:/msys64/ucrt64/include/ctype.h:
-
 C:/msys64/ucrt64/include/consoleapi2.h:
 
 C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/16.1.0/include/fxsrintrin.h:
 
-C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/16.1.0/include/amxbf16intrin.h:
+C:/msys64/ucrt64/include/bemapiset.h:
 
-C:/msys64/ucrt64/include/apiset.h:
+C:/msys64/ucrt64/include/pshpack2.h:
 
-C:/msys64/ucrt64/include/unknwnbase.h:
+C:/msys64/ucrt64/include/string.h:
 
-C:/msys64/ucrt64/include/unknwn.h:
+C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/16.1.0/include/immintrin.h:
 
-C:/Users/jwjnt/OneDrive/Desktop/GitLab_UNI/TBG-2-C/nts_essentials/nts_system_funcs/nts_system_funcs.c:
+C:/msys64/ucrt64/include/corecrt.h:
 
-C:/msys64/ucrt64/include/sal.h:
-
-C:/msys64/ucrt64/include/msxml.h:
-
-C:/msys64/ucrt64/include/stdarg.h:
-
-C:/msys64/ucrt64/include/_mingw_off_t.h:
-
-C:/msys64/ucrt64/include/_mingw_unicode.h:
-
-C:/msys64/ucrt64/include/wincrypt.h:
-
-C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/16.1.0/include/amxfp8intrin.h:
-
-C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/16.1.0/include/avx512vpopcntdqvlintrin.h:
-
-C:/msys64/ucrt64/include/driverspecs.h:
-
-C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/16.1.0/include/avx512bmmintrin.h:
+C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/16.1.0/include/ia32intrin.h:
 
 C:/Users/jwjnt/OneDrive/Desktop/GitLab_UNI/TBG-2-C/libraries/game_global/game_global.c:
 
@@ -606,9 +569,75 @@ C:/msys64/ucrt64/include/stralign.h:
 
 C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/16.1.0/include/avx512vlbwintrin.h:
 
-C:/msys64/ucrt64/include/corecrt.h:
+C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/16.1.0/include/limits.h:
 
-C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/16.1.0/include/ia32intrin.h:
+C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/16.1.0/include/cmpccxaddintrin.h:
+
+C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/16.1.0/include/movrsintrin.h:
+
+C:/Users/jwjnt/OneDrive/Desktop/GitLab_UNI/TBG-2-C/libraries/game_itself/start_game.h:
+
+C:/msys64/ucrt64/include/consoleapi3.h:
+
+C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/16.1.0/include/xsaveoptintrin.h:
+
+C:/msys64/ucrt64/include/_mingw.h:
+
+C:/msys64/ucrt64/include/wincon.h:
+
+C:/Users/jwjnt/OneDrive/Desktop/GitLab_UNI/TBG-2-C/nts_essentials/nts_variables.h:
+
+C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/16.1.0/include/avx512ifmavlintrin.h:
+
+C:/msys64/ucrt64/include/basetsd.h:
+
+C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/16.1.0/include/clzerointrin.h:
+
+C:/msys64/ucrt64/include/timezoneapi.h:
+
+C:/msys64/ucrt64/include/dpapi.h:
+
+C:/msys64/ucrt64/include/msxml.h:
+
+C:/msys64/ucrt64/include/stdarg.h:
+
+C:/msys64/ucrt64/include/crtdefs.h:
+
+C:/msys64/ucrt64/include/_mingw_off_t.h:
+
+C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/16.1.0/include/avx512bmmintrin.h:
+
+C:/msys64/ucrt64/include/_mingw_unicode.h:
+
+C:/msys64/ucrt64/include/stdlib.h:
+
+C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/16.1.0/include/gfniintrin.h:
+
+C:/Users/jwjnt/OneDrive/Desktop/GitLab_UNI/TBG-2-C/nts_essentials/nts_system_funcs/nts_system_funcs.c:
+
+C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/16.1.0/include/avx512vpopcntdqvlintrin.h:
+
+C:/msys64/ucrt64/include/driverspecs.h:
+
+C:/msys64/ucrt64/include/mciapi.h:
+
+C:/msys64/ucrt64/include/corecrt_memory.h:
+
+C:/msys64/ucrt64/include/rpcnsi.h:
+
+C:/msys64/ucrt64/include/minwindef.h:
+
+C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/16.1.0/include/syslimits.h:
+
+C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/16.1.0/include/avx512dqintrin.h:
+
+C:/msys64/ucrt64/include/sec_api/stdio_s.h:
+
+C:/msys64/ucrt64/include/swprintf.inl:
+
+C:/msys64/ucrt64/include/propidl.h:
+
+C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/16.1.0/include/avx512fp16vlintrin.h:
 
 C:/msys64/ucrt64/include/corecrt_stdio_config.h:
 
@@ -620,9 +649,29 @@ C:/msys64/ucrt64/include/limits.h:
 
 C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/16.1.0/include/amxint8intrin.h:
 
-C:/msys64/ucrt64/include/_mingw_mac.h:
+C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/16.1.0/include/amxbf16intrin.h:
 
-C:/msys64/ucrt64/include/vadefs.h:
+C:/msys64/ucrt64/include/apiset.h:
+
+C:/msys64/ucrt64/include/unknwnbase.h:
+
+C:/msys64/ucrt64/include/unknwn.h:
+
+C:/msys64/ucrt64/include/rpcasync.h:
+
+C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/16.1.0/include/amxcomplexintrin.h:
+
+C:/msys64/ucrt64/include/apisetcconv.h:
+
+C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/16.1.0/include/amxtf32intrin.h:
+
+C:/msys64/ucrt64/include/wincrypt.h:
+
+C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/16.1.0/include/amxfp8intrin.h:
+
+C:/msys64/ucrt64/include/errno.h:
+
+C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/16.1.0/include/enqcmdintrin.h:
 
 C:/msys64/ucrt64/include/ioapiset.h:
 
@@ -648,16 +697,6 @@ C:/msys64/ucrt64/include/minwinbase.h:
 
 C:/msys64/ucrt64/include/concurrencysal.h:
 
-C:/msys64/ucrt64/include/nb30.h:
-
-C:/msys64/ucrt64/include/shellapi.h:
-
-C:/msys64/ucrt64/include/psdk_inc/_xmitfile.h:
-
-C:/msys64/ucrt64/include/lzexpand.h:
-
-C:/msys64/ucrt64/include/fltwinerror.h:
-
 C:/msys64/ucrt64/include/commdlg.h:
 
 C:/msys64/ucrt64/include/consoleapi.h:
@@ -669,20 +708,6 @@ C:/msys64/ucrt64/include/servprov.h:
 C:/msys64/ucrt64/include/winperf.h:
 
 C:/msys64/ucrt64/include/winefs.h:
-
-C:/msys64/ucrt64/include/crtdefs.h:
-
-C:/msys64/ucrt64/include/excpt.h:
-
-C:/msys64/ucrt64/include/malloc.h:
-
-C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/16.1.0/include/xsavecintrin.h:
-
-C:/msys64/ucrt64/include/fileapi.h:
-
-C:/msys64/ucrt64/include/mmsyscom.h:
-
-C:/msys64/ucrt64/include/winapifamily.h:
 
 C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/16.1.0/include/avx512vp2intersectvlintrin.h:
 
@@ -704,27 +729,25 @@ C:/msys64/ucrt64/include/debugapi.h:
 
 C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/16.1.0/include/adxintrin.h:
 
-C:/msys64/ucrt64/include/errno.h:
+C:/msys64/ucrt64/include/rpcsal.h:
 
-C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/16.1.0/include/enqcmdintrin.h:
+C:/msys64/ucrt64/include/psdk_inc/_xmitfile.h:
 
-C:/msys64/ucrt64/include/guiddef.h:
+C:/msys64/ucrt64/include/lzexpand.h:
 
-C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/16.1.0/include/bmi2intrin.h:
+C:/msys64/ucrt64/include/shellapi.h:
 
-C:/msys64/ucrt64/include/minwindef.h:
+C:/msys64/ucrt64/include/sal.h:
+
+C:/msys64/ucrt64/include/ctype.h:
+
+C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/16.1.0/include/avx512cdintrin.h:
+
+C:/msys64/ucrt64/include/securityappcontainer.h:
 
 C:/msys64/ucrt64/include/securitybaseapi.h:
 
 C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/16.1.0/include/avx512vnnivlintrin.h:
-
-C:/msys64/ucrt64/include/stdlib.h:
-
-C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/16.1.0/include/gfniintrin.h:
-
-C:/msys64/ucrt64/include/string.h:
-
-C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/16.1.0/include/immintrin.h:
 
 C:/msys64/ucrt64/include/synchapi.h:
 
@@ -840,8 +863,6 @@ C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/16.1.0/include/bmiintrin.h:
 
 C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/16.1.0/include/avx512bitalgvlintrin.h:
 
-C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/16.1.0/include/avx512dqintrin.h:
-
 C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/16.1.0/include/avx512ifmaintrin.h:
 
 C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/16.1.0/include/avx512vbmi2intrin.h:
@@ -910,14 +931,6 @@ C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/16.1.0/include/fmaintrin.h:
 
 C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/16.1.0/include/hresetintrin.h:
 
-C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/16.1.0/include/limits.h:
-
-C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/16.1.0/include/cmpccxaddintrin.h:
-
-C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/16.1.0/include/movrsintrin.h:
-
 C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/16.1.0/include/lzcntintrin.h:
-
-C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/16.1.0/include/mm_malloc.h:
 
 C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/16.1.0/include/mwaitintrin.h:
