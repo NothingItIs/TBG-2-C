@@ -55,4 +55,6 @@
 
 #define clear() printf("\033[H\033[J")
 
+#define LEN(x) (sizeof(x) / sizeof(x[0]))
+
 #endif

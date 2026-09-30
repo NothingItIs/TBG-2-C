@@ -1,4 +1,1 @@
-0|The Beginning|You wake up... you have no hands or legs 😱|1,2
-1|Sit up|Wait, you... sat up..? How... are you even real?!?!|2
-2|Look around|You see... nothing! But as your eyes focus... you see a wide blue sky... and... building 21 💔💔|3,4
-3|Cry|You cry...|4
+0|The Beginning|Hello!! Welcome to the game, you've got 3 options.\n1.|1

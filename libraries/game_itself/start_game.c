@@ -2,6 +2,7 @@
 #include "start_game.h"
 #include <stdlib.h>
 #include <string.h>
+#include <stdlib.h>
 
 // void get_story(position){
 //     FILE *story = fopen("C:\\Users\\jwjnt\\OneDrive\\Desktop\\GitLab_UNI\\TBG-2-C\\story.txt", "r");
@@ -25,7 +26,7 @@ void createScene(struct scene *Scene, int id, char *title, char *event, int choi
 int load_story(struct scene scenes[]){
     FILE *story = fopen("story.txt", "r");
 
-    if (story == NULL) {
+    if (!story) {
         perror("Error opening story.txt");
         return 0;
     }
@@ -37,19 +38,23 @@ int load_story(struct scene scenes[]){
         for (int i = 0; (i < 4); i++)  {
             switch(i){
                 case 0:
-                    current = strtok(line, "|");
+                    current = strtok(line, "|\r\n");
                     scenes[sceneCount].id = atoi(current);
                     break;
                 case 1:
-                    current = strtok(NULL, "|");
+                    current = strtok(NULL, "|\r\n");
                     strcpy(scenes[sceneCount].title, current);
                     break;
                 case 2:
-                    current = strtok(NULL, "|");
+                    current = strtok(NULL, "|\r\n");
                     strcpy(scenes[sceneCount].event, current);
                     break;   
                 case 3:
-                    current = strtok(NULL, "|");
+                    current = strtok(NULL, "|\r\n");
+                    if (!current){
+                        fprintf(stderr, "Error: Scene %d has no options for the next scene.", sceneCount);
+                        exit(EXIT_FAILURE);
+                    }
                     scenes[sceneCount].choices[0] = atoi(strtok(current, ","));
                     for (int j = 1; j < 10; j++){
                         char *optionCurrent = strtok(NULL, ",");
@@ -57,6 +62,7 @@ int load_story(struct scene scenes[]){
                             break;
                         }
                         scenes[sceneCount].choices[j] = atoi(optionCurrent);
+                        scenes[sceneCount].choiceCount = j + 1;
                     }
                     break;
             }
@@ -68,14 +74,14 @@ int load_story(struct scene scenes[]){
     return sceneCount;
 }
 
-int main(void){
-    struct scene scenes[100];
-    load_story(scenes);
-    int x;
-    scanf("%d", &x);
-    printf("%s", scenes[x].title);
-    return 0;
-}
+// int main(void){
+//     struct scene scenes[100];
+//     load_story(scenes);
+//     int x;
+//     scanf("%d", &x);
+//     printf("%s", scenes[x].title);
+//     return 0;
+// }
 
 
 

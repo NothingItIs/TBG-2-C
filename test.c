@@ -1,13 +1,16 @@
-
 #include <stdio.h>
 
-void printNums(int *arr, int len) {
-    for (int i = 0; i < len; i++) {
-        printf("%d\n", arr[i]);
-    }
-}
+#define NTS_DEBUG 1
 
-int main() {
-    int nums[] = {10, 20, 30};
-    printNums(nums, 3);
+#include "libraries\game_itself\start_game.h"
+#include "nts_essentials\nts_all.h"
+
+int main(void){
+    clear();
+    struct scene scenes[100];
+    int x = load_story(scenes);
+    int (*p)[10] = &scenes[0].choices;
+    for (int i = 0; i < LEN(*p); i++){
+        printf("%d", (*p)[i]);
+    }
 }
