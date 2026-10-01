@@ -16,12 +16,12 @@
 //     fclose(story);
 // }
 
-void createScene(struct scene *Scene, int id, char *title, char *event, int choices[10]){
-    Scene->id = id;
-    strcpy(Scene->title, title);
-    strcpy(Scene->event, event);    
+// void createScene(struct scene *Scene, int id, char *title, char *event, int choices[10]){
+//     Scene->id = id;
+//     strcpy(Scene->title, title);
+//     strcpy(Scene->event, event);
 
-}
+// }
 
 int load_story(struct scene scenes[]){
     FILE *story = fopen("story.txt", "r");
