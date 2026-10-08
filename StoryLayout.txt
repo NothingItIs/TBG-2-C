@@ -1,0 +1,3 @@
+Forest | Farm | Random (Die)|
+Forest -> Gather | Walk | Wait -> All sync to Walk -> Road
+Farm -> Talk | Run | Ignore
