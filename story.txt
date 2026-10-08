@@ -1,2 +1,4 @@
-0|Title-Placeholder|Make no it up as we go along \n Introduction \n This is a story where you will make your own choices. Every decision will impact future decision |1,2,3,4,5
-
+0|Title-Placeholder|Make no it up as we go along \nIntroduction \nThis is a story where you will make your own choices. Some decisions will impact future options, some are just filler. Feel free to play multiple times to discover the full story. Have fun!\n \nYou are about to be dropped into a fantasy world... the question is, where do you want to start? \n>On a farm (1) \n>The bustling city (2) \n>You don't have a choice... (3)|1,2,3
+1|The trees tower above you|
+2|The smell of shit hits your nose like a freight train.|
+3|It's dark. You try to open your eyes, but they are already open.|
