@@ -1,1 +1,2 @@
-0|The Beginning|Hello!! Welcome to the game, you've got 3 options.\n1.|1
+0|Title|Story/Description|1,2,3,4,5
+
