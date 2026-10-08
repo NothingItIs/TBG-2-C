@@ -2,7 +2,7 @@
 #include "start_game.h"
 #include <stdlib.h>
 #include <string.h>
-#include <stdlib.h>
+
 
 // void get_story(position){
 //     FILE *story = fopen("C:\\Users\\jwjnt\\OneDrive\\Desktop\\GitLab_UNI\\TBG-2-C\\story.txt", "r");
@@ -46,6 +46,23 @@ int load_story(struct scene scenes[]){
                     strcpy(scenes[sceneCount].title, current);
                     break;
                 case 2:
+                    current = strtok(NULL, "|\r\n");
+                    if (!current){
+                        fprintf(stderr, "Error: Scene %d has no event value for the next scene.", sceneCount);
+                        exit(EXIT_FAILURE);
+                    }
+                    char *eventsCollected[] = {};
+                    eventsCollected[0] = strtok(current, "\\n");
+                    char *optionCurrentEvent;
+                    int z = 1;
+                    while(1){
+                        optionCurrentEvent = strtok(NULL, "\\n");
+                        if (!optionCurrentEvent){
+                            break;
+                        }
+                        eventsCollected[z] = optionCurrentEvent;
+                        
+                    }
                     current = strtok(NULL, "|\r\n");
                     strcpy(scenes[sceneCount].event, current);
                     break;   

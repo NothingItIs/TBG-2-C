@@ -12,7 +12,7 @@ struct scene {
 };
 
 struct player {
-
+    int id;
 };
 
 int load_story(struct scene scenes[]);

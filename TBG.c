@@ -1,4 +1,6 @@
 #include <stdio.h>
+#include <stdlib.h>
+#include <string.h>
 #include "libraries/game_funcs.h"
 #include "nts_essentials/nts_all.h"
 
@@ -30,9 +32,17 @@ int main(void){
 
     struct scene scenes[100];
     load_story(scenes);
+    int currentSceneIndex = 0;
+    while(1){
+        struct scene *currentScene = &scenes[currentSceneIndex];
 
-    while (1){
-        struct scene *currentScene = &scenes[0];
+        printf("Scene: %d\n", currentScene->id);
+        printf("Title: %s\n", currentScene->title);
+        char *sceneEvent = strtok(currentScene->event, "\\n");
+        for (int i = 0; i < LEN(sceneEvent); i++){
+            printf("%s", sceneEvent[i]);
+        }
+        safeScanf("%d", &currentSceneIndex);
     }
 
     return 0;
