@@ -1,2 +1,2 @@
-0|Title|Story/Description|1,2,3,4,5
+0|Title-Placeholder|Make no it up as we go along \n Introduction \n This is a story where you will make your own choices. Every decision will impact future decisions |1,2,3,4,5
 
