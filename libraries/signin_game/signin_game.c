@@ -11,7 +11,7 @@ ai, or code. */
 
 // struct 
 
-void signin(void){
+void signin(struct player *player){
     clear();
     no_feature();
 }

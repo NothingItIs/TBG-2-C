@@ -2,8 +2,8 @@
 
 #define NTS_DEBUG 1
 
-#include "libraries\game_itself\start_game.h"
-#include "nts_essentials\nts_all.h"
+#include "libraries/game_itself/start_game.h"
+#include "nts_essentials/nts_all.h"
 
 int main(void){
     clear();
