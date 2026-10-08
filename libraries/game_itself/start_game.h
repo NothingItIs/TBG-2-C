@@ -11,6 +11,10 @@ struct scene {
     int choiceCount;
 };
 
+struct player {
+
+};
+
 int load_story(struct scene scenes[]);
 
 #endif
