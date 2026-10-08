@@ -1,4 +1,7 @@
-0|Title-Placeholder|Make no it up as we go along \nIntroduction \nThis is a story where you will make your own choices. Some decisions will impact future options, some are just filler. Feel free to play multiple times to discover the full story. Have fun!\n \nYou are about to be dropped into a fantasy world... the question is, where do you want to start? \n>On a farm (1) \n>The bustling city (2) \n>You don't have a choice... (3)|1,2,3
-1|The trees tower above you|
-2|The smell of shit hits your nose like a freight train.|
-3|It's dark. You try to open your eyes, but they are already open.|
+0|Title-Placeholder|Make no it up as we go along \nIntroduction \nThis is a story where you will make your own choices. Some decisions will impact future options, some are just filler. Feel free to play multiple times to discover the full story. Have fun!\n \nYou are about to be dropped into a fantasy world... the question is, where do you want to start? \n>In the forest \n>On a farm \n>You don't have a choice...|1,2,3
+1|In the forest|The trees tower above you. You are in a forest. What do you do? \n>Gather \n>Walk \n>Wait|4,5,6
+2|On a farm|The smell of manure hits your nose like a freight train. You are standing in a field of cows. They seem friendly. A man sees you and approaches. What do you do? \n>Talk to him \n>Run \n>Ignore|7,8,9
+3|You don't have a choice...|It's dark. You try to open your eyes, but they are already open. Your breath becomes rapid as you panic, trying to get your bearings, when you suddenly become weightless... \n*You walk off a cliff and die. Spawning randomly isn't a great idea. Try again*|0
+4|Gather|You find a study stick (*Caveman noises). There's nothing left to do here, and it's getting dark \n>Walk|5
+5|Walk|You find a road and follow it \n>Road|10
+6|Wait|You wait, and feel a little better. It's getting dark now, so you should get moving. \n>Walk|5
